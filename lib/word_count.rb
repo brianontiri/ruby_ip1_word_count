@@ -10,3 +10,4 @@ class String
     counter
  end
 end
+#apps functionality
