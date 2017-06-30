@@ -14,3 +14,4 @@ also_reload('lib/**/*.rb')
     @word = params.fetch('sentence').word_count(word)
     erb(:form)
   end
+#ok
