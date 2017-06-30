@@ -7,4 +7,4 @@ describe('String#word_count') do
     expect(("paul is a Good boy Good ").word_count("Good")).to eq(2)
   end
 end
-#runs tests
+#runs tests,
