@@ -8,7 +8,7 @@
        </ol><br>
        <hr>
    <h3 style="color:white; ">Enter a word</h3>
-  <form action='/word_count'>
+  <form action='/form'>
   <div class="form-group">
 
     <label for="word"></label>
@@ -20,3 +20,14 @@
     <textarea rows="4" cols="50" id="sentence" name="sentence" class="form-control" type="text"></textarea>
   </div>
 <button type="submit" class="btn btn-success">press</button>
+
+<div style="";class="container">
+<h1 style="color:white"; >HuReEeE !!!!! </h1>
+<div style="hieght:200px"; class="container">
+  <div class="col-md-12 result">
+<h3 style="color:white";> YOUR RESULT:</h3><em><h1 style="color:red; "><%= @word %></h1></em>
+<strong><h4 style="color:white;">This how it worked, the word that you entered was searched in the sentence and counted how many times it repeated itself<br> and in this case
+your word repeated itself  <em><strong><%= @word %></strong></em>  time(s)</h4></strong>
+</div>
+</div>
+</div>

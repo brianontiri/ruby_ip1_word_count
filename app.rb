@@ -9,8 +9,8 @@ also_reload('lib/**/*.rb')
     erb(:form)
   end
 
-  get('/word_count') do
+  get('/form') do
     word = params.fetch('word')
     @word = params.fetch('sentence').word_count(word)
-    erb(:count)
+    erb(:form)
   end
